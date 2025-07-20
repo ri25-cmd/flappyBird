@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    margin: 1rem 0 1rem 0;  /* spacing above and below */
+    color: white;
+}
+
+button {
+    font-family: "Press Start 2P", system-ui;
+    background-color: red;
+    color: yellow;
+    padding: 0.5rem 1rem;
+    font-size: 0.6rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#board {
+    margin: 0 auto; /* center the canvas horizontally */
+    display: block;
+    background-image: url("flappy-bird-background-vnzm62ypakupicll.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
